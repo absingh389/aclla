@@ -1,8 +1,12 @@
-# aclla
+# Aclla
 Database of beer ingredients.  This project intends to be a standard to be used in Bierminen's experiments, as it'll handle all data for many beer ingredients.
 
 
-## bsparser
+## Data: Suppliers
+This CSV file contains data of ingredient suppliers.
+
+
+## BSParser
 This parser is able to retrieve data from BeerSmith's XML files to use with Aclla.  BeerSmith 2 seems to use a dialect derived from BeerXML "standard" [1].
 
 ### Grain
