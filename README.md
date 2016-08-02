@@ -1,5 +1,5 @@
 # aclla
-Database of grain data.
+Database of beer ingredients.  This project intends to be a standard to be used in Bierminen's experiments, as it'll handle all data for many beer ingredients.
 
 
 ## bsparser
@@ -16,7 +16,19 @@ The `Grain` class can handle BeerSmith's grain files --usually `Grain.bsmx`.  Ju
 ```
 
 
-# References
-[ 1] BeerSmith.  Importing and Exporting Files.  Available at:
-     <http://www.beersmith.com/help2/index.html?importing_and_exporting_
-     files.htm>.
+## References
+[ 1] BeerSmith.  Importing and Exporting Files.  Available at: [http://www.beersmith.com/help2/index.html?importing_and_exporting_files.htm](http://www.beersmith.com/help2/index.html?importing_and_exporting_files.htm).
+
+
+## About
+According to [Wikipedia](https://en.wikipedia.org/wiki/Aclla), Aclla in the religion of the Inca Empire were virgins chosen to keep the sacred fires of Inti burning. They were also occasionally sacrificed as well. Their other duties included brewing the beer of the Incas and on occasion serving as companions to the Inca emperor.
+
+This project was conceived by José Lopes as part of his brewing project, [Bierminen](https://bierminen.com).  Join us on [Facebook](https://facebook.com/bierminen).
+
+[Bierminen](https://bierminen.com): Zug von verrükten!
+
+Cheers!
+
+Prost!
+
+Saúde!
