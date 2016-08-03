@@ -6,6 +6,20 @@ Database of beer ingredients.  This project intends to be a standard to be used 
 This CSV file contains data of ingredient suppliers.
 
 
+## BFParser
+Retrieves and parses data from Brewer's Friend site to JSON.  It can be used as a standalone program.
+
+### Fermentable
+`Fermentable` class handles the table of fermentable ingredients.
+
+#### Example
+```python
+>>> from aclla.bfparser import Fermentable
+>>> f = Fermentable()
+>>> f.parse()
+```
+
+
 ## BSParser
 This parser is able to retrieve data from BeerSmith's XML files to use with Aclla.  BeerSmith 2 seems to use a dialect derived from BeerXML "standard" [1].
 

@@ -14,6 +14,7 @@ help users to build their own databases.
 
 
 import xml.etree.ElementTree as ET
+import json
 
 
 class Grain(object):
@@ -24,7 +25,7 @@ class Grain(object):
     - path (string): path to the bsmx file.
 
     """
-    def __init__(self, path):
+    def __init__(self, path='/usr/share/BeerSmith2/Grain.bsmx'):
         self.root = ET.parse(path).getroot()
 
     def parse(self, tags):
@@ -34,5 +35,10 @@ class Grain(object):
             list of common tags.
 
         """
-        return [dict((tag.tag,tag.text) for tag in el if tag.tag in tags)
-            for el in self.root.iter('Grain')]
+        return json.dumps({'grains': [dict((tag.tag,tag.text)
+            for tag in el if tag.tag in tags)
+            for el in self.root.iter('Grain')]})
+
+
+if __name__ == '__main__':
+    print(Grain().parse(['F_G_NAME', 'F_G_ORIGIN', 'F_G_COLOR', 'F_G_YIELD']))
