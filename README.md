@@ -6,6 +6,19 @@ Database of beer ingredients.  This project intends to be a standard to be used 
 This CSV file contains data of ingredient suppliers.
 
 
+## Data: Fermentables
+Fermentables information:
+
+* `Name` (string): the name of that item.
+* `ISO 3166-1-Alpha-2` (string): the country of origin in 2 characters.
+* `Type` (string): can be `Grain`, `Sugar`, `Extract`, or `Adjunct`.
+* `Tags` (string): a kind of subtype; can be `basemalt`, `roastedmalt`, `crystalmalt`, `dryextract`, `liquidextract`, or `glutenfree`.
+* `Color` (float): the color associated with the item, in degrees Lovibond.
+* `Yield` (integer): amount of fermentable sugar that can be extracted from that item.
+* `Source` (string): source of that item.
+* `Date` (date): when that item was last modified.
+
+
 ## BFParser
 Retrieves and parses data from Brewer's Friend site to JSON.  It can be used as a standalone program.
 
@@ -36,6 +49,9 @@ The `Grain` class can handle BeerSmith's grain files --usually `Grain.bsmx`.  Ju
 
 ## References
 [ 1] BeerSmith.  Importing and Exporting Files.  Available at: [http://www.beersmith.com/help2/index.html?importing_and_exporting_files.htm](http://www.beersmith.com/help2/index.html?importing_and_exporting_files.htm).
+[ 2] BeerXML.  XML Standard for Beer Brewing Data.  Version 1.0.  Available at: [http://www.beerxml.com/beerxml.htm](http://www.beerxml.com/beerxml.htm).
+[ 3] Brewer's Friend.  Fermentables.  Available at: [http://www.brewersfriend.com/fermentables/](http://www.brewersfriend.com/fermentables/).
+[ 4] Brewtoad.  Fermentables.  Available at: [https://www.brewtoad.com/generic-fermentables](https://www.brewtoad.com/generic-fermentables).
 
 
 ## About
