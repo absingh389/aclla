@@ -10,13 +10,24 @@ This CSV file contains data of ingredient suppliers.
 Fermentables information:
 
 * `Name` (string): the name of that item.
-* `ISO 3166-1-Alpha-2` (string): the country of origin in 2 characters.
+* `ISO3166-1-Alpha-2` (string): the country of origin in 2 characters.
 * `Type` (string): can be `Grain`, `Sugar`, `Extract`, or `Adjunct`.
 * `Tags` (string): a kind of subtype; can be `basemalt`, `roastedmalt`, `crystalmalt`, `dryextract`, `liquidextract`, or `glutenfree`.
 * `Color` (float): the color associated with the item, in degrees Lovibond.
 * `Yield` (integer): amount of fermentable sugar that can be extracted from that item.
 * `Source` (string): source of that item.
 * `Date` (date): when that item was last modified.
+
+
+## Data: Hops
+Hops information:
+
+* `Name` (string): hop name.
+* `ISO3166-1-Alpha-2` (string): original country code in 2 chars.
+* `Average-Alpha-Acids` (float): percent of alpha acids.
+* `Common-Usage` (string): could be `Bittering`, `Aroma`, or `Dual`.
+* `Source` (string): source of information.
+* `Date` (date): last modification date.
 
 
 ## BFParser
