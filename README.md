@@ -18,6 +18,10 @@ Fermentables information:
 * `Source` (string): source of that item.
 * `Date` (date): when that item was last modified.
 
+### Sources
+
+* [Brewer's Friend](http://www.brewersfriend.com/fermentables/)
+
 
 ## Data: Hops
 Hops information:
@@ -28,6 +32,13 @@ Hops information:
 * `Common-Usage` (string): could be `Bittering`, `Aroma`, or `Dual`.
 * `Source` (string): source of information.
 * `Date` (date): last modification date.
+
+### Sources
+
+* [BYO](https://byo.com/resources/hops)
+* [Brewer's Friend](http://www.brewersfriend.com/hops/)
+* [Brewtoad](https://www.brewtoad.com/hops)
+* How to Brew: PALMER, J. J.  3rd edition.  p.178-197.
 
 
 ## BFParser
