@@ -21,6 +21,7 @@ Fermentables information:
 ### Sources
 
 * [Brewer's Friend](http://www.brewersfriend.com/fermentables/)
+* [BYO](http://byo.com/resources/grains)
 
 
 ## Data: Hops
@@ -70,10 +71,8 @@ The `Grain` class can handle BeerSmith's grain files --usually `Grain.bsmx`.  Ju
 
 
 ## References
-[ 1] BeerSmith.  Importing and Exporting Files.  Available at: [http://www.beersmith.com/help2/index.html?importing_and_exporting_files.htm](http://www.beersmith.com/help2/index.html?importing_and_exporting_files.htm).
-[ 2] BeerXML.  XML Standard for Beer Brewing Data.  Version 1.0.  Available at: [http://www.beerxml.com/beerxml.htm](http://www.beerxml.com/beerxml.htm).
-[ 3] Brewer's Friend.  Fermentables.  Available at: [http://www.brewersfriend.com/fermentables/](http://www.brewersfriend.com/fermentables/).
-[ 4] Brewtoad.  Fermentables.  Available at: [https://www.brewtoad.com/generic-fermentables](https://www.brewtoad.com/generic-fermentables).
+1. BeerSmith.  Importing and Exporting Files.  Available at: [http://www.beersmith.com/help2/index.html?importing_and_exporting_files.htm](http://www.beersmith.com/help2/index.html?importing_and_exporting_files.htm).
+2. BeerXML.  XML Standard for Beer Brewing Data.  Version 1.0.  Available at: [http://www.beerxml.com/beerxml.htm](http://www.beerxml.com/beerxml.htm).
 
 
 ## About
